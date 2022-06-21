@@ -7,9 +7,14 @@ function Calculator(num1, num2, operator){
             return Number(num1) - Number(num2)
         case '*':
             return Number(num1) * Number(num2)
-        case '÷':
+        case '/':
             return Number(num1) / Number(num2)  
         default:
             return "An invalid operator was entered please try again" 
     }
 }
+
+firstnumber = prompt("Enter a number")
+secondnumber = prompt("Enter another number")
+operation = prompt("Enter an operation to perform. The operation has to be one of the following: '+', '-', '*', or '/'")
+alert(Calculator(firstnumber, secondnumber, operation))
