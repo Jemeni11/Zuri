@@ -14,7 +14,7 @@ function Calculator(num1, num2, operator){
     }
 }
 
-firstnumber = prompt("Enter a number")
-secondnumber = prompt("Enter another number")
-operation = prompt("Enter an operation to perform. The operation has to be one of the following: '+', '-', '*', or '/'")
+let firstnumber = prompt("Enter a number")
+let secondnumber = prompt("Enter another number")
+let operation = prompt("Enter an operation to perform. The operation has to be one of the following: '+', '-', '*', or '/'")
 alert(Calculator(firstnumber, secondnumber, operation))
